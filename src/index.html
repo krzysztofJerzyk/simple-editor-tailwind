@@ -6,12 +6,16 @@
     <link href="./index.css" type="text/css" rel="stylesheet" />
     <title>Prosty edytor</title>
   </head>
-  <body>
-    <h1>Prosty edytor</h1>
-    <textarea> </textarea>
-    <div>
-      <button>load</button>
-      <button>save</button>
-    </div>
+  <body class="bg-indigo-950 flex min-h-screen justify-center items-center">
+    <main class="w-lg flex flex-col gap-2">
+      <h1 class="text-gray-50 text-4xl font-bold">Prosty edytor</h1>
+      <textarea
+        class="w-full bg-amber-50 text-black min-h-52 rounded-sm"
+      ></textarea>
+      <div class="flex justify-end gap-4">
+        <button class="px-4 py-1 bg-blue-500 rounded-sm">load</button>
+        <button class="px-4 py-1 bg-emerald-700 rounded-sm">save</button>
+      </div>
+    </main>
   </body>
 </html>
